@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project3</title>
+	<style>
+		nav{
+			height: 80px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: black;
+		}
+		ul{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		#{
+			text-decoration: none;
+		}
+		img{
+			max-height: 50px;
+		}
+		.list-menu{
+			display: flex;
+		}
+		.list-menu li{
+			margin-right: 100px;
+		}
+		.list-menu li a{
+			color: white;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-columns: 350px 300px 300px 280px;
+			grid-template-rows: 250px 250px 250px 250px;
+			background-color: silver;
+			padding: 10px;
+			grid-gap: 10px; 
+		}
+		.grid-container > div{
+			background-color: gray;
+			text-align: center;
+			padding: 20px 0;
+			font-size: 20px;
+		}	
+		.grid-item1{
+			grid-row-end: span 2;
+			grid-column-end: span 4;
+			margin-left: 50px;
+		}
+		.grid-item2{
+			grid-row-end: span 2;
+			margin-left: 50px;
+		}
+		.grid-item3{
+			grid-column-end: span 2;
+		}
+		.grid-item6{
+			grid-column-end: span 2;
+		}
+		.grid-item7{
+			grid-row-end: span 15;
+			margin-left: 50px;
+			grid-column-end: span 4;
+		}
+		.grid-contain{
+			display: grid;
+			grid-template-columns: 210px 210px 210px 210px 210px 210px;
+			grid-template-rows: 200px 2000px 2000px 200px 200px 200px;
+			background-color: silver;
+			padding: 10px; 
+		}
+		.grid-contain > div{
+			background-color: white;
+			margin-left: 50px;
+			padding: 20px 0;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul class="main">
+			<li><a href="#"><img src="https://shoptixs.com/public/uploads/all/BMeG6JW57rrTYAGYjMjdl4mwotPQzPOKVjHpGUuq.png" alt=""></a></li>
+		</ul>
+		<ul class="list-menu">
+			<li><a href="">Home</a></li>
+			<li><a href="">Shop</a></li>
+			<li><a href="">Featured</a></li>
+			<li><a href="">Shortcode</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Contact us</a></li>
+		</ul>
+	</nav>
+	<div class="grid-container">
+		<div class="grid-item1">A perfect cup, mug, or  carafe every time.</div>
+		<div class="grid-item2"></div>
+		<div class="grid-item3"></div>
+		<div class="grid-item4"></div>
+		<div class="grid-item5"></div>
+		<div class="grid-item6"></div>
+		<div class="grid-item7"></div>
+	</div>
+	<div class="grid-contain">
+		<div class="grid-item8"></div>
+		<div class="grid-item9"></div>
+		<div class="grid-item10"></div>
+		<div class="grid-item11"></div>
+		<div class="grid-item12"></div>
+		<div class="grid-item13"></div>
+	</div>
+</body
+</html>
